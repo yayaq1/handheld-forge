@@ -5,7 +5,7 @@ description: Headless PyBoy playtest – boot cards, smoke the play scene, check
 
 # /playtest
 
-Stage B/D evidence gatherer for `handheld-forge`.
+Stage B/D evidence gatherer for `handheld-game-forge`.
 
 ## Steps
 

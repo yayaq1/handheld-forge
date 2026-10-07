@@ -1,11 +1,11 @@
 ---
-name: handheld-forge
+name: handheld-game-forge
 description: Builds lore-rich, polished 2D handheld games (.gbc via GBDK-2020 for v0; .gba planned later) through Orchestrator / Planner / Builder / Critic / Diagnoser roles, stage gates A–E, a harsh pixel Visual Bar at 160×144, and headless PyBoy playtest. Use when the user wants to prompt a handheld ROM with title/premise/lore cards, detailed character sprites, zero-slowdown craft, or the /new-game /build /playtest loop. Not for 3D, Blender, web toys, or two-minute slop loops. Publish and device install stay LOCKED unless explicitly unlocked.
 license: MIT
 compatibility: Needs a host that can run roles as separate subagents or fresh sessions, a critic that can view full-resolution stills, GBDK-2020 for builds, and PyBoy for headless playtest.
 ---
 
-# Handheld Forge
+# Handheld Game Forge
 
 Turn a lore-first brief into a playable `.gbc` ROM under hard handheld constraints. Playable is the floor. Visual craft at 160×144 plus lore-card depth and zero-slowdown is the gate. Nothing is WIN until a fresh Critic returns WIN on the game's Visual Bar, the Orchestrator's process checks pass, and the Orchestrator's own harsh visual read of the stills agrees the picture holds up.
 

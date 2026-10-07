@@ -5,7 +5,7 @@ description: Stage A – create a new handheld game brief, plan, Visual Bar, and
 
 # /new-game
 
-You are running **Stage A** of the `handheld-forge` skill. Read `skills/handheld-forge/SKILL.md` and `builder-protocol.md` before acting.
+You are running **Stage A** of the `handheld-game-forge` skill. Read `skills/handheld-game-forge/SKILL.md` and `builder-protocol.md` before acting.
 
 ## Inputs to collect (ask if missing)
 
@@ -25,7 +25,7 @@ Refuse to continue if release posture is missing.
 3. Write `BRIEF.md` with `Publish: LOCKED` and `Device: LOCKED`.
 4. Create `refs-locked/` + `SOURCES.md` (4–8 refs when available; note gaps honestly).
 5. Write Planner `PLAN.md` (loop, cards, bank sketch, VRAM/OAM budget, risks).
-6. Write `art/BAR.md` from `skills/handheld-forge/visual-bar.md` and `art/LEDGER.md` v0.
+6. Write `art/BAR.md` from `skills/handheld-game-forge/visual-bar.md` and `art/LEDGER.md` v0.
 7. Customize template strings (title, premise, lore) with **original** placeholder copy only.
 8. Document build: `scripts/build.sh` from plugin root or project `./build.sh`.
 9. One status line to the user; do not claim visual WIN.

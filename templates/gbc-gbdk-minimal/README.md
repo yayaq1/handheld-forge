@@ -1,6 +1,6 @@
 # Harbor Lights (minimal GBDK template)
 
-Original placeholder project for Handheld Forge v0.
+Original placeholder project for Handheld Game Forge v0.
 
 **Flow:** title card → premise card → lore card → pier play (light three posts).
 

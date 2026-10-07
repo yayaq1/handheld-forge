@@ -1,6 +1,6 @@
 # Builder protocol (handheld)
 
-Stage-by-stage runbook for Handheld Forge. Orchestrator follows all of it and hands each role only the parts that apply. Rubric: `visual-bar.md`. Critic prompt: `critic-prompt.md`.
+Stage-by-stage runbook for Handheld Game Forge. Orchestrator follows all of it and hands each role only the parts that apply. Rubric: `visual-bar.md`. Critic prompt: `critic-prompt.md`.
 
 Adapted from Eric Zakariasson's game-builder stage gates (MIT), retargeted to GBDK-2020 + PyBoy. No Blender, no 3D, no browser-toy preview as the primary gate.
 

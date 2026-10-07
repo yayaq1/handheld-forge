@@ -7,7 +7,7 @@ cd "$ROOT"
 export GBDK_DIR="${GBDK_DIR:-/opt/gbdk}"
 if [[ ! -x "${GBDK_DIR}/bin/lcc" ]]; then
   echo "ERROR: lcc not found at ${GBDK_DIR}/bin/lcc" >&2
-  echo "Run scripts/setup.sh from the handheld-forge plugin root." >&2
+  echo "Run scripts/setup.sh from the handheld-game-forge plugin root." >&2
   exit 1
 fi
 

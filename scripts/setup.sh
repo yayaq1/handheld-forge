@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install GBDK-2020 and a PyBoy venv for Handheld Forge agents/devs.
+# Install GBDK-2020 and a PyBoy venv for Handheld Game Forge agents/devs.
 set -euo pipefail
 
 PLUGIN_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
