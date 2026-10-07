@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Headless PyBoy playtest for Handheld Forge ROMs.
+"""Headless PyBoy playtest for Handheld Game Forge ROMs.
 
 Boots a .gbc, advances title/premise/lore cards, smokes the play scene,
 watches for freezes, saves screenshots, writes qa/report.json.
@@ -19,7 +19,7 @@ FPS = 60
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Handheld Forge PyBoy playtest")
+    p = argparse.ArgumentParser(description="Handheld Game Forge PyBoy playtest")
     p.add_argument("--rom", required=True, type=Path, help="Path to .gbc ROM")
     p.add_argument("--out", type=Path, default=Path("qa"), help="Output directory")
     p.add_argument(

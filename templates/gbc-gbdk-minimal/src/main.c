@@ -1,5 +1,5 @@
 /*
- * Harbor Lights – original minimal GBDK-2020 template for Handheld Forge.
+ * Harbor Lights – original minimal GBDK-2020 template for Handheld Game Forge.
  * Flow: title card → premise card → lore card → tiny playable pier scene.
  * Branding: handheld / GBC-class only. No third-party IP.
  */

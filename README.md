@@ -1,10 +1,10 @@
-# Handheld Forge
+# Handheld Game Forge
 
 Cursor plugin that turns a lore-first brief into a polished 2D handheld ROM (`.gbc` via GBDK-2020 in v0; `.gba` planned later). Prompt → scaffold → build → headless PyBoy playtest → optional (locked) arcade publish / device push.
 
 **Depth over a two-minute loop:** title and premise cards, in-character lore cards with readable sprites, then a playable slice – under a harsh pixel Visual Bar at 160×144.
 
-Brand / product id: `handheld-forge` (Game Forge – Make).
+Brand / product id: `handheld-game-forge` (Game Forge – Make).
 
 ## Install
 
@@ -12,7 +12,7 @@ Brand / product id: `handheld-forge` (Game Forge – Make).
 
 ```bash
 mkdir -p ~/.cursor/plugins/local
-ln -s /absolute/path/to/handheld-forge ~/.cursor/plugins/local/handheld-forge
+ln -s /absolute/path/to/handheld-game-forge ~/.cursor/plugins/local/handheld-game-forge
 # Restart Cursor or Developer: Reload Window
 # Confirm under Customize that skills + commands appear
 ```
@@ -41,7 +41,7 @@ Submit at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publis
 | `/publish-to-arcade` | **LOCKED** | Unlock with `HANDHELD_FORGE_UNLOCK_PUBLISH=1` |
 | `/install-on-device` | **LOCKED** | Unlock with `HANDHELD_FORGE_UNLOCK_DEVICE=1` |
 
-The skill `handheld-forge` is the Orchestrator constitution (Planner / Builder / Critic / Diagnoser). Slash commands are thin stage wrappers – see `skills/handheld-forge/SKILL.md`.
+The skill `handheld-game-forge` is the Orchestrator constitution (Planner / Builder / Critic / Diagnoser). Slash commands are thin stage wrappers – see `skills/handheld-game-forge/SKILL.md`.
 
 ## Loop
 
@@ -93,7 +93,7 @@ Playtest stills (committed):
 .cursor-plugin/plugin.json
 assets/logo.png    Marketplace tile (512×512); assets/logo.svg vector source
 commands/          new-game, build, playtest, publish-to-arcade, install-on-device
-skills/handheld-forge/
+skills/handheld-game-forge/
   SKILL.md
   builder-protocol.md
   visual-bar.md

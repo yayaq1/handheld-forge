@@ -1,11 +1,11 @@
 ---
-description: Handheld Forge branding and IP guardrails for generated games and docs.
+description: Handheld Game Forge branding and IP guardrails for generated games and docs.
 alwaysApply: false
 globs:
   - "**/*.{c,h,md,txt}"
 ---
 
-When working in a Handheld Forge game project:
+When working in a Handheld Game Forge game project:
 
 - Say handheld, GBC-class, `.gbc`, or `.gba` – never console manufacturer trademarks or classic handheld product brand names.
 - Keep public/arcade builds original (`isFanDemake: false`). Homage refs stay in `refs-locked/` only.
