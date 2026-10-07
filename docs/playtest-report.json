@@ -1,0 +1,74 @@
+{
+  "rom": "/workspace/templates/gbc-gbdk-minimal/build/harbor_lights_v0.1.gbc",
+  "rom_bytes": 32768,
+  "cgb": true,
+  "max_emulated_minutes": 0.4,
+  "events": [
+    {
+      "frame": 180,
+      "msg": "boot settled"
+    },
+    {
+      "frame": 280,
+      "msg": "screen changed after title advance"
+    },
+    {
+      "frame": 280,
+      "msg": "advanced past title"
+    },
+    {
+      "frame": 380,
+      "msg": "screen changed after premise advance"
+    },
+    {
+      "frame": 380,
+      "msg": "advanced past premise"
+    },
+    {
+      "frame": 480,
+      "msg": "screen changed after lore advance"
+    },
+    {
+      "frame": 480,
+      "msg": "advanced past lore"
+    },
+    {
+      "frame": 480,
+      "msg": "play scene entered (expected)"
+    },
+    {
+      "frame": 630,
+      "msg": "play smoke changed screen (sprite/HUD activity)"
+    },
+    {
+      "frame": 630,
+      "msg": "play smoke input done"
+    },
+    {
+      "frame": 1443,
+      "msg": "emulated time cap reached"
+    },
+    {
+      "frame": 1443,
+      "msg": "input responsive \u2013 no freeze"
+    }
+  ],
+  "screenshots": [
+    "00_boot.png",
+    "01_title.png",
+    "02_premise.png",
+    "03_lore.png",
+    "04_play_enter.png",
+    "05_play_smoke.png",
+    "06_final.png"
+  ],
+  "freeze": false,
+  "cards_advanced": 3,
+  "play_reached": true,
+  "frames": 1443,
+  "ok": true,
+  "play_input_changed_screen": true,
+  "input_responsive": true,
+  "wall_seconds": 0.267,
+  "emulated_seconds": 24.05
+}
