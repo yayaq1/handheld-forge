@@ -1,0 +1,29 @@
+# BRIEF – Harbor Lights (example)
+
+- **Title:** Harbor Lights
+- **Slug:** harbor-lights
+- **Platform:** gbc
+- **Stack:** GBDK-2020
+- **Release posture:** original
+- **Publish:** LOCKED
+- **Device:** LOCKED
+
+## Premise
+
+Guide ferry lamps along a storm-lit pier. Keep every light burning until the tide turns.
+
+## Loop
+
+Light three posts on a tiny pier map; lore cards before and after key beats.
+
+## Session target
+
+A short vertical slice with title, premise, lore, and play – depth over a two-minute empty loop.
+
+## Non-goals
+
+3D, web preview as primary QA, fan IP, console trademarks.
+
+## Deliverables
+
+Versioned `.gbc`, PyBoy stills, `art/BAR.md`, Critic rounds until WIN.

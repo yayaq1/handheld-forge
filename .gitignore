@@ -1,0 +1,40 @@
+# Toolchains and local envs (install via scripts/setup.sh)
+.venv-pyboy/
+.venv/
+tools/gbdk/
+/opt/gbdk-local/
+
+# Build intermediates (versioned .gbc ROMs may be committed for the template demo)
+*.o
+*.lst
+*.map
+*.ihx
+*.noi
+*.sym
+*.cdb
+*.asm
+templates/gbc-gbdk-minimal/build/main.*
+templates/gbc-gbdk-minimal/qa/
+
+# Secrets and local unlocks
+.env
+.env.*
+!.env.example
+*.token
+secrets/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Playtest scratch (keep committed docs/ screenshots)
+qa/tmp/
+*.sav

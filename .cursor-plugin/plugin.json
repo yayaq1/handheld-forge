@@ -1,0 +1,23 @@
+{
+  "name": "handheld-forge",
+  "displayName": "Handheld Forge",
+  "description": "Prompt your way to lore-rich, polished 2D handheld games (.gbc via GBDK-2020). Orchestrator / Planner / Builder / Critic stages with a harsh pixel Visual Bar, headless PyBoy playtest, and locked arcade publish / device install gates.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yahya Qureshi"
+  },
+  "repository": "https://github.com/yayaq1/handheld-forge",
+  "homepage": "https://github.com/yayaq1/handheld-forge",
+  "license": "MIT",
+  "keywords": [
+    "handheld",
+    "gbc",
+    "gbdk",
+    "pixel-art",
+    "game-dev",
+    "pyboy",
+    "lore"
+  ],
+  "logo": "assets/logo.png",
+  "category": "developer-tools"
+}
