@@ -17,7 +17,7 @@ If environment variable `HANDHELD_FORGE_UNLOCK_PUBLISH` is not set to `1`:
 
 Requires env (never commit secrets):
 
-- `GAMEFORGE_API_BASE` (default `https://gameforge-api.yahyaqureshi2002.workers.dev`)
+- `GAMEFORGE_API_BASE` (default `https://gforge.pages.dev`)
 - `GAMEFORGE_PUBLISHER_TOKEN` (Bearer `gfp_…`)
 
 Client-side checks before POST:
