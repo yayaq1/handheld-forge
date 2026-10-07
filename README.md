@@ -91,7 +91,7 @@ Playtest stills (committed):
 
 ```
 .cursor-plugin/plugin.json
-assets/logo.svg
+assets/logo.png    Marketplace tile (512×512); assets/logo.svg vector source
 commands/          new-game, build, playtest, publish-to-arcade, install-on-device
 skills/handheld-forge/
   SKILL.md
@@ -120,7 +120,7 @@ MIT © Yahya Qureshi – see [LICENSE](LICENSE).
 - [x] Skills under `skills/` with `SKILL.md` frontmatter
 - [x] Commands under `commands/` with frontmatter
 - [x] `README.md` documents usage and configuration
-- [x] Logo committed at `assets/logo.svg`
+- [x] Logo committed at `assets/logo.png` (Marketplace) with `assets/logo.svg` vector source
 - [x] Manifest paths relative (no `..`, no absolute paths)
 - [x] Local smoke: GBDK build + PyBoy playtest
 - [ ] Public GitHub repo ready for review
